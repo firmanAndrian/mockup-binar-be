@@ -71,7 +71,7 @@ class TodoController {
         });
       }
       res.status(200).json({
-        message: `succes find users with id ${user_id}`,
+        message: `succes find todo with user ${user_id}`,
         data: getTodo,
       });
     } catch (error) {
